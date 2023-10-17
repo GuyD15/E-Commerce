@@ -10,7 +10,7 @@ Category.init(
             type: DataTypes.INTEGER,
             allowNull: false,
             primaryKey: true,
-            autoIncrement: truncate
+            autoIncrement: true
         }, 
         category_name: {
             type: DataTypes.STRING,
